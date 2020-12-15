@@ -31,7 +31,7 @@ jobs:
         uses: betrybe/mongodb-query-evaluator-action@v2.2
         id: evaluator
         env:
-          DBNAME: 'commerce'
+          DBNAME: 'aggregations'
         with:
           repository-import-folder: 'assets'
           repository-challenges-folder: 'challenges'
