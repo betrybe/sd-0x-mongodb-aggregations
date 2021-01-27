@@ -259,7 +259,7 @@ O resultado da sua query deve ter o seguinte formato:
 
 ### Desafio 3
 
-Agora que você tem os campos essenciais, os da última pipeline:
+Agora que você tem os campos essenciais, aplique mais um estágio na pipeline do desafio anterior que atenda a seguinte demanda:
 
 #### Retorne esses filmes ordenados por ano e nota IMDB de forma decrescente e por ordem alfabética.
 
@@ -423,7 +423,7 @@ O resultado da sua query deve ter o seguinte formato:
 
 ### Desafio 12
 
-#### Usando a pipeline anterior que retornar o dia com mais viagens, determine qual estação tem o maior número de viagens nesse dia da semana.
+#### Usando a pipeline anterior que retorna o dia com mais viagens, determine qual estação tem o maior número de viagens nesse dia da semana.
 
 - Exiba apenas o nome da estação e o total de viagens.
 
