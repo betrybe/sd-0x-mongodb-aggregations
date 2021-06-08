@@ -61,7 +61,7 @@ Neste projeto você será capaz de:
 
 É isso aí, mais um bloco finalizado! Agora chegamos ao fim do último bloco do nosso módulo de NoSQL e MongoDB. Você viu vários métodos e operadores para executar operações de agregação de dados no **MongoDB**, e vai colocá-los em prática em mais um projeto.
 
-Para esse projeto, diferentemente dos outros, você vai utilizar vários datasets, de forma que possa praticar em vários cenários os diversos operadores e estágios do `aggregation pipeline`.
+Para esse projeto, diferentemente dos outros, você vai utilizar vários bancos de dados, de forma que possa praticar em vários cenários os diversos operadores e estágios do `aggregation pipeline`.
 
 Vamos trabalhar com dados do **IMDB**, dados sobre empresas aéreas e também dados que contenham registros de deslocamento de pessoas que utilizam bicicletas. Esperamos que você curta muito o projeto e fixe muito bem o que aprendeu até aqui!
 
@@ -71,8 +71,8 @@ Então vamos lá aplicar seu conhecimento nesses cenários muito legais! 😉
 
 ## Data de Entrega
 
-  - Serão `X` dias de projeto.
-  - Data de entrega para avaliação final do projeto: `DD/MM/YYYY - 14:00h`.
+    - Serão `X` dias de projeto.
+    - Data de entrega para avaliação final do projeto: `DD/MM/YYYY - 14:00h`.
 
 ---
 
@@ -183,7 +183,7 @@ Qualquer dúvida, procure a monitoria. Lembre-se que você pode consultar nosso 
 
 ## Instruções para restaurar o banco de dados `aggregations`
 
-1. Abra o terminal e conecte-se à sua instância local do **MongoDB**. Se você receber uma mensagem de erro com uma mensagem como ***Connection refused***, tente reiniciar sua instância ([veja como fazer isso aqui](https://course.betrybe.com/back-end/mongodb/introduction/#conectando)).
+1. Abra o terminal e conecte-se à sua instância local do **MongoDB**. Se você receber uma mensagem de erro com uma mensagem como ***Connection refused***, tente reiniciar sua instância ([veja como fazer isso aqui](https://app.betrybe.com/course/back-end/introducao-ao-mongodb/mongodb-introducao/d396e5a2-d5c9-4f3a-b723-1a1d3ea06b3d/conteudos/b9646f17-77fc-401e-bab5-421fdc37428e/conectando/f63aa7aa-ac8f-4253-bf76-7fc71e4eac5a?use_case=side_bar)).
 
 2. Agora que você tem certeza de que a sua instância está no ar e que você está conectado a ela, digite `exit`. Você voltará ao terminal para iniciar a importação dos dados.
 
@@ -194,7 +194,7 @@ Qualquer dúvida, procure a monitoria. Lembre-se que você pode consultar nosso 
 
   * A execução desse script criará um banco de dados chamado `aggregations` e importará todas as suas coleções.
 
-⚠️ Como tanto esse script quanto o script de execução local dos testes (mostrado na [seção seguinte](#implementações-técnicas)), **restauram a base de dados `aggregations`**, se atente a salvar seu progresso nos arquivos de desafio! ⚠️
+⚠️ Como tanto esse script quanto o script de execução local dos testes (mostrado na [seção seguinte](#execução-de-testes-unitários)), **restauram a base de dados `aggregations`**, se atente a salvar seu progresso nos arquivos de desafio! ⚠️
 
 ---
 
