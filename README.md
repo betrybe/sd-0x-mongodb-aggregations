@@ -223,7 +223,7 @@ Ajude a Trybe a escolher um filme para a próxima noite! Baseado em uma pesquisa
 
 #### Retorne todos os filmes que satisfaça, através de uma  _pipeline_, as condições abaixo
 
-* `imdb.rating` deve ser ao menos `7`;
+* `imdb.rating` deve ser maior ou igual a `7`;
 * `genres` não deve conter `Crime` ou `Horror`;
 * `rated` deve ser igual a `PG` ou `G`;
 * `languages` contém `English` e `Spanish`.
