@@ -304,11 +304,11 @@ O resultado da sua query deve ter exatamente o seguinte formato (incluindo a ord
 
 Vamos explorar mais operadores aritméticos!
 
-#### Considerando todos os filmes que ganharam o Oscar pelo menos uma vez, calcule o **maior valor**, **menor valor**, **média** e o **desvio padrão** das avaliações (campo `imdb.rating`)
+#### Considerando todos os filmes que ganharam o Oscar pelo menos uma vez, calcule o **maior valor**, **menor valor**, **média** e o **desvio padrão** das avaliações (informação do campo `imdb.rating` no banco)
 
 - Para a média e o desvio padrão arredonde os valores para uma casa decimal utilizando o [`$round`](https://docs.mongodb.com/manual/reference/operator/aggregation/round/index.html).
 
-Dica: todos os filmes na coleção, que já ganharam um Oscar, começam com uma sequência de string parecida com essas abaixo, portanto `$regex` é um operador bem-vindo:
+**Dica:** todos os filmes na coleção, que já ganharam um Oscar (informação do campo `awards` no banco), começam com uma sequência de string parecida com essas abaixo, portanto `$regex` é um operador bem-vindo:
 
 ```
 Won 10 Oscars
@@ -317,7 +317,7 @@ Won 1 Oscar
 
 Utilizem o [`$stdDevSamp`](https://docs.mongodb.com/manual/reference/operator/aggregation/stdDevSamp/index.html) para calcular o desvio padrão.
 
-O resultado da sua query deve ter o seguinte formato:
+O resultado da sua query deve ter exatamente o seguinte formato (incluindo a ordem dos campos):
 
 ```javascript
 {
@@ -332,13 +332,15 @@ O resultado da sua query deve ter o seguinte formato:
 
 Vamos nos aprofundar um pouco mais em nossa coleção de filmes. 
 
-#### Conte quantos filmes cada um dos atores e atrizes do elenco (`cast`) já participou e obter uma média do campo `imdb.rating` para cada um desses atores e atrizes.
+#### Conte quantos filmes cada um dos atores e atrizes do elenco (`cast` no banco) já participou e obtenha uma média do campo `imdb.rating` para cada um desses atores e atrizes.
 
-- Traga o nome do ator ou atriz, número de filmes em que participou e a média do imdb desses filmes arredondada para uma casa decimal usando o operador [`$round`](https://docs.mongodb.com/manual/reference/operator/aggregation/round/index.html). 
+- Traga o nome do ator ou atriz;
+- Número de filmes em que participou
+- Média do imdb desses filmes arredondada para uma casa decimal usando o operador [`$round`](https://docs.mongodb.com/manual/reference/operator/aggregation/round/index.html).
 - Considere somente os membros do elenco de filmes com o idioma inglês (`English`). 
 - Exiba a lista em ordem decrescente de documentos pelo número de filmes e nome do ator ou atriz.
 
-Sua query deve retornar `47055` documentos. Cada documento no resultado deve ter o seguinte formato:
+Sua query deve retornar `47055` documentos. Cada documento no resultado deve ter exatamente o seguinte formato (incluindo a ordem dos campos):
 
 ```javascript
 { "_id" : "John Wayne", "numeroFilmes" : 107, "mediaIMDB" : 6.4 }
