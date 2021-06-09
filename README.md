@@ -238,7 +238,7 @@ A escolha do filme da noite foi um sucesso, mas infelizmente ficamos com nossa b
 #### Utilizando o mesmo _pipeline_ anterior, retorne apenas os campos `title`, `rated`, `imdb.rating`, `imdb.votes` e `year`, modificando seus nomes para `titulo`, `avaliado`, `notaIMDB`, `votosIMDB` e `ano`, respectivamente.
 
 
-O resultado da sua query deve ter o seguinte formato:
+O resultado da sua query deve ter exatamente o seguinte formato (incluindo a ordem dos campos):
 
 ```javascript
 { "titulo" : "A Streetcar Named Desire", "avaliado" : "PG", "notaIMDB" : 8.1, "votosIMDB" : 72364, "ano" : 1951 }
