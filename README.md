@@ -356,7 +356,7 @@ No campo `airplane`, na coleção `air_routes`:
 - Boing 747 está abreviado para `747`
 - Airbus A380 está abreviado para `380`
 
-O resultado da sua query deve ter o seguinte formato:
+O resultado da sua query deve ter exatamente o seguinte formato (incluindo a ordem dos campos):
 
 ```javascript
 { "_id" : <nome_da_alianca>, "totalRotas" : <total_de_rotas> }
