@@ -438,7 +438,7 @@ O resultado da sua query deve ter exatamente o seguinte formato (incluindo a ord
 
 - Exiba o resultado em minutos arredondados para cima e em ordem decrescente.
 
-O resultado da sua query deve ter o seguinte formato:
+O resultado da sua query deve ter exatamente o seguinte formato (incluindo a ordem dos campos):
 
 ```javascript
 { "bikeId" : <bike_id>, "duracaoMedia" : <duracao_media> }
