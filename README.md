@@ -387,7 +387,7 @@ O resultado da sua query deve ter exatamente o seguinte formato (incluindo a ord
 
 Para arredondar a média use o [`$round`](https://docs.mongodb.com/manual/reference/operator/aggregation/round/index.html).
 
-O resultado da sua query deve ter o seguinte formato:
+O resultado da sua query deve ter exatamente o seguinte formato (incluindo a ordem dos campos):
 
 ```javascript
 { "tipo" : <tipo>, "duracaoMedia" : <duracaoMedia> }
