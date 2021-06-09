@@ -426,7 +426,7 @@ O resultado da sua query deve ter exatamente o seguinte formato (incluindo a ord
 
 - Arredonde o resultado para cima.
 
-O resultado da sua query deve ter o seguinte formato:
+O resultado da sua query deve ter exatamente o seguinte formato (incluindo a ordem dos campos):
 
 ```javascript
 { "duracaoMediaEmMinutos" : <duracao_media_em_minutos> }
