@@ -372,7 +372,7 @@ O resultado da sua query deve ter exatamente o seguinte formato (incluindo a ord
 
 - Para este desafio utilize o operador [`$toInt`](https://docs.mongodb.com/manual/reference/operator/aggregation/toInt/index.html) para converter de string para valor inteiro.
 
-O resultado da sua query deve ter o seguinte formato:
+O resultado da sua query deve ter exatamente o seguinte formato (incluindo a ordem dos campos):
 
 ```javascript
 { "maiorAnoNascimento" : <ano>, "menorAnoNascimento" : <ano> }
